@@ -3,24 +3,33 @@ body {
   text-align: center;
   font-family: sans-serif;
   font-family: 'Merriweather', serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 h1 {
   font-size: 5.625rem;
-  margin-top: 50px;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
-
+.header-desc{
+  color: #45b29a;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
 h2 {
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
-
+a{
+  color:#11999E;
+}
 hr {
   border-color: #d3d3d3;
   border-style: none;
@@ -30,20 +39,24 @@ hr {
 }
 
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #e0ebe8;
   position: relative;
   padding-top: 10%;
+  margin-bottom: 0;
 }
 
 .pro {
   text-decoration: underline;
 }
-
+.mount{
+  position:relative;
+}
 .top-cloud {
   position: absolute;
-  right: 30%;
+  right: 20%;
 }
 
 .bottom-cloud {
   position: absolute;
+  left: 20%;
 }
