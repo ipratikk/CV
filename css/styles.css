@@ -12,11 +12,13 @@ h1 {
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
-.header-desc{
+
+.header-desc {
   color: #45b29a;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: normal;
 }
+
 h2 {
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
@@ -27,9 +29,11 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
 }
-a{
-  color:#11999E;
+
+a {
+  color: #11999E;
 }
+
 hr {
   border-color: #d3d3d3;
   border-style: none;
@@ -48,9 +52,11 @@ hr {
 .pro {
   text-decoration: underline;
 }
-.mount{
-  position:relative;
+
+.mount {
+  position: relative;
 }
+
 .top-cloud {
   position: absolute;
   right: 20%;
@@ -59,4 +65,15 @@ hr {
 .bottom-cloud {
   position: absolute;
   left: 20%;
+}
+
+.bottom-container {
+  background-color: #e0ebe8;
+  margin-top: 10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.skill-row-set {
+  display: inline-block;
 }
