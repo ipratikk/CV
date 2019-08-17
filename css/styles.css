@@ -66,14 +66,45 @@ hr {
   position: absolute;
   left: 20%;
 }
-
 .bottom-container {
   background-color: #e0ebe8;
   margin-top: 10px;
   padding-top: 1%;
   padding-bottom: 1%;
 }
+.skill-row {
+  width: 50%;
+  margin: 120px auto 120px auto;
+  text-align: left;
+  line-height: 2;
+}
+.imac{
+  float: left;
+  padding-right: 100px;
+}
+.c{
+  margin-right: 10%;
+}
+.cpp{
+  margin-right: 10%;
+}
+.python{
+  margin-right: 10%;
+}
+.butn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 0;
+  text-shadow: 5px 3px 8px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 25px;
+  background: #45B29A;
+  padding: 10px 15px 10px 40px;
+  text-decoration: none;
+}
 
-.skill-row-set {
-  display: inline-block;
+.butn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
 }
