@@ -35,7 +35,7 @@ hr {
   border-width: 10px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 50px auto;
 }
 
 a {
@@ -112,7 +112,7 @@ a:hover {
 }
 .row {
   width: 75%;
-  margin: 100px auto;
+  margin: 50px auto;
   display: flex;
 }
 
