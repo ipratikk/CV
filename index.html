@@ -4,69 +4,243 @@
 <head>
   <meta charset="utf-8">
   <title>Pratik Goel</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/6899c61b13.js"></script>
+  <script src="https://use.fontawesome.com/5a8a7bb461.js"></script>
+
+  <!-- Bootstrap sript -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- CSS Style Sheet -->
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <div class="top-container">
-    <img class="top-cloud" src="images/cloud.svg" alt="cloud-img">
-    <h1>I'm Pratik.</h1>
-    <img class="bottom-cloud" src="images/cloud.svg" alt="cloud-img">
-    <h2 class="header-desc">a programmer</h2>
-    <img class="mount" src="images/land.svg" alt="mountain-img">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="pratik-img" src="images/pratik.png" alt="pratik-img">
-      <h2>Hello.</h2>
-      <p class="intro">I'm a student at <a href="https://uem.edu.in/">UEMK</a>.<br>I'm a coder, gamer & have a passion for learning new skills</p>
-    </div>
-    <hr>
-    <h2>My Skills.</h2>
-    <div class="row">
-      <div class="column">
-        <img class="code-img" src="images/coding.gif" alt="code-img" style="width:50%">
+
+  <section id="title">
+    <div class="container-fluid" style="padding-bottom:0">
+
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="">Pratik Goel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#title">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#education">Education</a>
+            <a class="nav-item nav-link" href="#projects">Projects</a>
+            <a class="nav-item nav-link" href="">Contact</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-sm-2 col-md-2 img-top" style="margin:auto">
+          <img src="images/cloud.svg" class="image-fluid rounded float-left" alt="..." />
+        </div>
+        <div class="col-sm-6 col-md-6" style="margin:auto">
+          <h1 class="container-fluid">I'm Pratik.</h1>
+        </div>
+        <div class="col-sm-2 col-md-2" style="margin:auto">
+          <img src="images/cloud.svg" class="image-fluid rounded float-right" alt="..." />
+        </div>
       </div>
-      <div class="column desc">
-        <p>Data Structures <br>
-          Dynamic Programming <br>
-          Graphs & Tree <br>
-          Number Theory <br>
-          Implementation
-        </p>
+
+      <div class="row">
+        <img src="images/land.svg" class="image-fluid rounded mx-auto d-block" alt="..." style="width:100%">
       </div>
-    </div>
-    <div class="row">
-      <div class="column">
-        <img src="images/c.png" alt="C" style="width:40%">
-      </div>
-      <div class="column">
-        <img src="images/cpp.png" alt="CPP" style="width:40%">
-      </div>
-      <div class="column">
-        <img src="images/python.png" alt="Python" style="width:40%">
-      </div>
-      <div class="column">
-        <img src="images/java.png" alt="Java" style="width:40%">
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>If you would like to know more</h3>
-      <p class="contact-message">If you have any questions or queires regarding anything,feel free to contact me</p>
-      <a class="butn" href="mailto:ipratikgoel@gmail.com" target="_blank">CONTACT ME</a>
-    </div>
+  </section>
   </div>
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/ipratikk" target="_blank">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/ipratikk" target="_blank">Twitter</a>
-    <a class="footer-link" href="https://facebook.com/ipratikk" target="_blank">Facebook</a>
-    <p class="copyright">© 2019 Pratik Goel.</p>
-  </div>
+
+
+
+  <!-- Bio -->
+  <section>
+    <div class="container-fluid">
+      <div class="row title-head">
+        <div class="col-lg-12 col-md-12 centerBlock">
+          <img src="images/pratik.png" class="image-fluid rounded mx-auto d-block rounded-circle pratik-img" alt="...">
+        </div>
+        <div class="col-lg-12 col-md-12">
+          <p class="bio">
+            CS Undergrad at <a href="https://uem.edu.in" target="_blank">UEMK</a><br>
+            I'm a coder,gamer & have a passion for learning new skills.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5" style="text-align:center">
+          <i class="fas fa-user-graduate fa-9x grad-img"></i>
+        </div>
+        <div class="col-md-7">
+          <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h2 class="score">91.4%</h2>
+                <h3> <a href="https://cisce.org/" target="_blank">ICSE</a></h3>
+              </div>
+              <div class="carousel-item">
+                <h2 class="score">88.25%</h2>
+                <h3> <a href="https://cisce.org/" target="_blank"> ISC</a></h3>
+              </div>
+              <div class="carousel-item">
+                <h2 class="score">9.2 CGPA</h2>
+                <h3> <a href="https://uem.edu.in" target="_blank">University of Engineering & Management, Kolkata</a></h3>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container-fluid ">
+      <h2 class="proj">Projects</h2>
+      <div id="carousel-2" class="carousel slide" data-ride="false" data-interval="5000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="row">
+                <h3 class="col-lg-10 col-sm-10" style="text-align:left">File Management System in C</h3>
+                <a class="col-lg-1 col-sm-1" href="https://github.com/ipratikk/CollegeProject/blob/master/3rd%20Sem/FileManagementSystem.c" target="_blank" style="text-align:center">View</a>
+                <a class="col-lg-1 col-sm-1" href="https://github.com/ipratikk/CollegeProject/blob/master/3rd%20Sem/FileManagementSystem.c" target="_blank"><i class="fab fa-github fa-2x" style="margin:auto"></i></a>
+              </div>
+              <hr>
+              <p>The system​ ​follow​s ​the​ ​working​ ​principle​ ​of​ ​‘​ls​’​ ​command​ ​in​ ​Linux​ ​Operating​ ​system.
+                It​ ​can ​show​ ​the​ ​files,​ ​folders​ ​under​ ​the​ ​current​ ​directory.​ ​
+                The​ ​user​ ​can add​ ​files,​ ​folders​ ​under​ ​specific​ ​folder.
+                If​ ​the​ ​folder​ ​under​ ​which​ ​the​ ​user​ ​want​s ​to​ ​add​ ​the​ ​files​ ​do​es ​not​ ​exist,​ ​it​ ​is ​created​ ​first​ ​and then​ ​the​ ​files/folders​ ​are ​added.
+                Tree​ ​data​ ​structure​ ​is​ ​used​ ​to​ ​implement​ ​the​ ​system.
+                These​ ​files​ ​or​ ​folders​ ​mentioned​ ​above​ ​are not ​created​ ​physically,​ ​only the names are stored.</p>
+              <h4>Commands</h4>
+              <table class="table table-striped table-bordered table-responsive-lg" style="text-align:center">
+                <thead>
+                  <th scope="col">Command</th>
+                  <th scope="col">Details</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>mkdir</td>
+                    <td>Creates​ ​a​ ​new​ ​directory​ ​under​ ​the​ ​current​ ​directory,​ ​prompts​ ​user​ ​if​ ​the​ ​directoryalready​ ​exists</td>
+                  </tr>
+                  <tr>
+                    <td>file</td>
+                    <td>Creates​ ​a​ ​new​ ​file​ ​under​ ​the​ ​current​ ​directory,​ ​prompts​ ​user​ ​if​ ​the​ ​file​ ​alreadyexists</td>
+                  </tr>
+                  <tr>
+                    <td>ls</td>
+                    <td>Displays​ ​the​ ​contents​ ​of​ ​the​ ​current​ ​directory</td>
+                  </tr>
+                  <tr>
+                    <td>tree</td>
+                    <td>Displays​ ​all​ ​the​ ​files​ ​and​ ​folders</td>
+                  </tr>
+                  <tr>
+                    <td>sd</td>
+                    <td>Shows​ ​the​ ​name​ ​of​ ​the​ ​current​ ​directory</td>
+                  </tr>
+                  <tr>
+                    <td>cd</td>
+                    <td>Changes​ ​the​ ​current​ ​directory,​ ​cd​ ​root​ ​may​ ​be​ ​used​ ​to​ ​go​ ​to​ ​the​ ​root​ ​directory</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row">
+                <h3 class="col-lg-9 col-sm-9" style="text-align:left">Material Requirement Processing</h3>
+                <a class="col-lg-1 col-sm-1" href="https://github.com/ipratikk/CollegeProject/tree/master/4th%20Sem/SoftwareTools" target="_blank" style="text-align:center">View</a>
+                <a class="col-lg-1 col-sm-1" href="https://github.com/ipratikk/CollegeProject/tree/master/4th%20Sem/SoftwareTools" target="_blank"><i class="fab fa-github fa-2x" style="margin:auto"></i></a>
+              </div>
+              <hr>
+              <p>
+                <ul>
+                  <li>The system uses gambas3 to provide an user interface</li>
+                  <li>It can calculate the complete inventory and the price</li>
+                  <li>New items can be added to inventory alongwith quantity and price.</li>
+                  <li>It supports validation of invalid entries</li>
+                  <li>It can display the inventory</li>
+                  <li>It can display complete or individual items</li>
+                  <li>It has a receipt generator</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev">
+          <i class="fas fa-chevron-left fa-2x icon"></i>
+        </a>
+        <a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next">
+          <i class="fas fa-chevron-right fa-2x icon"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Profiles -->
+  <section id="profile">
+    <h2>Coding Profiles</h2>
+    <div class="row coding-profiles">
+      <a class="col-lg col-sm-6" href="https://codechef.com/users/ipratikk" target="_blank"><img src="images/codechef_logo.png" class="image-fluid mx-auto d-block cod-img" alt="" style="width:50%"></a>
+      <a class="col-lg col-sm-6" href="https://hackerearth.com/@ipratikk" target="_blank"><img src="images/hackerearth_logo.png" class="image-fluid mx-auto d-block cod-img" alt="" style="width:50%"></a>
+      <a class="col-lg col-sm-6" href="https://www.hackerrank.com/ipratikk?hr_r=1" target="_blank"><img src="images/hackerrank_logo.png" class="image-fluid mx-auto d-block cod-img" alt="" style="width:50%"></a>
+      <a class="col-lg col-sm-6" href="https://leetcode.com/ipratikk/" target="_blank"><img src="images/leetcode.png" class="image-fluid mx-auto d-block cod-img" alt="" style="width:50%"></a>
+      <a class="col-lg col-sm-6" href="https://www.spoj.com/users/ipratikk/" target="_blank"><img src="images/spoj_logo.png" class="image-fluid mx-auto d-block cod-img" alt="" style="width:50%"></a>
+      <a class="col-lg col-sm-6" href="http://codeforces.com/profile/ipratikk" target="_blank"><img src="images/codeforces_logo.png" class="image-fluid mx-auto d-block cod-img" alt="" style="width:50%"></a>
+    </div>
+
+  </section>
+
+
+
+
+
+  <footer id="footer">
+
+    <p>© Copyright 2018 TinDog</p>
+
+  </footer>
+
 
 </body>
 
