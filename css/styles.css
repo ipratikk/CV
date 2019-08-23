@@ -249,3 +249,7 @@ a:hover {
   -o-transform: scale(1.5);
   /* Opera */
 }
+
+.navbar-toggler{
+    border: none;
+  }
