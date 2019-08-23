@@ -1,4 +1,9 @@
 @media (max-width:576px) {
+  .nav-logo {
+    width: 30px;
+    height: 30px;
+  }
+
   .cloud {
     width: 30%;
   }
@@ -57,12 +62,16 @@
     width: 30%;
     padding-bottom: 5%;
   }
-  .row{
+
+  .row {
     margin: auto;
   }
 }
 
 @media (min-width:576px) {
+  .nav-logo{
+    width:6%;
+  }
   .pratik-img {
     width: 20%;
   }
@@ -88,7 +97,8 @@
   .social {
     width: 60%;
   }
-  .soc-img{
+
+  .soc-img {
     width: 40%;
   }
 }
@@ -128,7 +138,9 @@ hr {
   background-color: #0aaa7a;
   margin: 15px 0 20px 0;
 }
-
+.nav-logo{
+  opacity: 0.5;
+}
 .pratik-img {
   border-radius: 50%;
 }
