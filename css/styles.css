@@ -43,7 +43,7 @@ hr {
   padding: 3% 5%;
 }
 
-.col-md-12, .col-sm-6 {
+.col-md-12, .col-sm-6, .col-sm-4 {
   padding-top: 2.5%;
   padding-bottom: 2.5%;
 }
@@ -60,6 +60,12 @@ hr {
 #education {
   padding: 5% 0;
   background-color: #E0EBE8;
+}
+
+#footer {
+  text-align: center;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
 }
 
 .title-head {
@@ -86,18 +92,6 @@ hr {
   color: #1e836c !important;
 }
 
-span {
-  background-color: #3366CC;
-  color: #fff;
-  padding: 5px 5px;
-  text-align: center;
-  margin-right: 1px;
-}
-
-.profile {
-  text-align: center;
-}
-
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
@@ -107,10 +101,6 @@ span {
 .navbar-toggler:focus, .navbar-toggler:active {
   outline: none;
   box-shadow: none;
-}
-
-.cod-img:hover {
-  opacity: 0.5;
 }
 
 .bio {
@@ -135,13 +125,53 @@ a:hover {
   text-decoration: none;
   color: black;
 }
-ul{
-  line-height: 2;
+
+ul {
+  line-height: 2.5;
   font-size: 1.2rem;
 }
-.carousel-control-next,.carousel-control-prev{
-  width:3%;
+
+.carousel-item {
+  padding: 0 5%;
 }
-.icon{
+
+.icon {
   color: black;
+}
+
+.view-tag {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#profile {
+  margin-bottom: 5%;
+}
+
+.coding-profiles {
+  width: 70%;
+  margin: auto;
+}
+
+.social {
+  width: 60%;
+  margin: auto;
+}
+.cod-img {
+  width: 40%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.cod-img:hover {
+  opacity: 0.5;
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -moz-transform: scale(1.5);
+  /* Firefox */
+  -webkit-transform: scale(1.5);
+  /* Safari and Chrome */
+  -o-transform: scale(1.5);
+  /* Opera */
 }
