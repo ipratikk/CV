@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="skrollr skrollr-desktop">
 
 <head>
   <link rel="icon" href="images/logo1.png">
@@ -24,233 +24,446 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <!-- CSS Style Sheet -->
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
 <body>
+  <nav id="dot-nav" class="">
+    <ul>
+      <li class="dot-container"> <a href="#intro-section" data-number="0" class="is-selected"> <span class="dot"></span> <span class="dot-label">Intro</span> </a> </li>
+      <li class="dot-container"> <a href="#about-section" data-number="1" class=""> <span class="dot"></span> <span class="dot-label">About</span> </a> </li>
+      <li class="dot-container"> <a href="#services-section" data-number="2" class=""> <span class="dot"></span> <span class="dot-label">What I Do</span> </a> </li>
+      <li class="dot-container"> <a href="#skills-section" data-number="3" class=""> <span class="dot"></span> <span class="dot-label">Skills</span> </a> </li>
+      <li class="dot-container"> <a href="#experience-section" data-number="4"> <span class="dot"></span> <span class="dot-label">Experience</span> </a> </li>
+      <li class="dot-container"> <a href="#portfolio-section" data-number="5"> <span class="dot"></span> <span class="dot-label">Portfolio</span> </a> </li>
+      <li class="dot-container"> <a href="#coding-section" data-number="6"> <span class="dot"></span> <span class="dot-label">Coding Profiles</span> </a> </li>
+      <li class="dot-container"> <a href="#contact-section" data-number="7"> <span class="dot"></span> <span class="dot-label">Contact</span> </a> </li>
+    </ul>
+  </nav>
 
-  <section id="title">
-    <div class="container-fluid" style="padding-bottom:0">
-
-      <!-- Navigation Bar -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href=""> <img src="images/logo1.png" class="d-inline-block align-top nav-logo" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#title">Home<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#education">Education</a>
-            <a class="nav-item nav-link" href="#projects">Projects</a>
-            <a class="nav-item nav-link" href="#footer">Contact</a>
-          </div>
-        </div>
-      </nav>
-
-      <div class="row">
-        <div class="col-sm-2 col-md-2" style="margin:auto">
-          <img src="images/cloud.svg" class="image-fluid rounded float-left cloud" alt="..." />
-        </div>
-        <div class="col-sm-6 col-md-6" style="margin:auto">
-          <h1 class="container-fluid">I'm Pratik.</h1>
-        </div>
-        <div class="col-sm-2 col-md-2" style="margin:auto">
-          <img src="images/cloud.svg" class="image-fluid rounded float-right cloud" alt="..." />
-        </div>
-      </div>
-
-      <div class="row container-fluid" style="padding-bottom:0">
-        <img src="images/land.svg" class="image-fluid rounded mx-auto d-block land" alt="..." style="width:100%">
-      </div>
-  </section>
+  <div id="toggle" class="container"> <span class="line top"></span> <span class="line middle"></span> <span class="line bottom"></span> </div>
+  <div id="overlay" class="overlay">
+    <div class="logo"><img class="logo-img" src="images/logo1.png" alt="logo"><span>Pratik Goel</span></div>
+    <nav class="overlay-menu">
+      <ul class="menu-container">
+        <li class="menu-item"><a href="#intro-section">Intro</a></li>
+        <li class="menu-item"><a href="#about-section">About</a></li>
+        <li class="menu-item"><a href="#services-section">What I Do</a></li>
+        <li class="menu-item"><a href="#skills-section">Skills</a></li>
+        <li class="menu-item"><a href="#experience-section">Experience</a></li>
+        <li class="menu-item"><a href="#portfolio-section">Portfolio</a></li>
+        <li class="menu-item"><a href="#coding-section">Coding Profiles</a></li>
+        <li class="menu-item"><a href="#contact-section">Contact</a></li>
+      </ul>
+    </nav>
   </div>
 
+  <div id="skrollr-body">
 
-
-
-  <!-- Bio -->
-  <section id="bio">
-    <div class="container-fluid">
-      <div class="row title-head">
-        <div class="col-lg-12 col-md-12 centerBlock">
-          <img src="images/pratik.png" class="image-fluid rounded mx-auto d-block rounded-circle pratik-img" alt="...">
-        </div>
-        <div class="col-lg-12 col-md-12">
-          <p class="bio">
-            CS Undergrad at <a href="https://uem.edu.in" target="_blank">UEMK</a><br>
-            I'm a coder,gamer & have a passion for learning new skills.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="education">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5" style="text-align:center">
-          <i class="fas fa-user-graduate fa-9x grad-img"></i>
-        </div>
-        <div class="col-md-7">
-          <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <h2 class="score">91.4%</h2>
-                <h3> <a href="https://cisce.org/" target="_blank">ICSE</a></h3>
-              </div>
-              <div class="carousel-item">
-                <h2 class="score">88.25%</h2>
-                <h3> <a href="https://cisce.org/" target="_blank"> ISC</a></h3>
-              </div>
-              <div class="carousel-item">
-                <h2 class="score">9.2 CGPA</h2>
-                <h3> <a href="https://uem.edu.in" target="_blank">University of Engineering & Management, Kolkata</a></h3>
-              </div>
+    <section id="intro-section" class="section">
+      <div class="bg skrollable skrollable-between" data-anchor-target="#intro-section" data-bottom-top="transform: translate3d(0px, -150px, 0px);" data-top-bottom="transform: translate3d(0px, 150px, 0px);"
+        style="transform: translate3d(0px, -5.44041px, 0px);"></div>
+      <div class="intro-wrapper">
+        <div class="intro-body skrollable skrollable-between" data-anchor-target="#intro-section" data-top="opacity: 1;" data-top-bottom="opacity: 0;" style="opacity: 1;">
+          <div class="intro-content">
+            <h1 class="heading" data-content="Pratik Goel"><span class="name">Pratik Goel</span></h1>
+            <div class="action-wrapper">
+              <p class="subtext"> <a class="btn main-action">B.Tech CSE | ICPC 2018 Regionalist</a> </p>
             </div>
-            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+          </div>
+          <div class="scroll-down-wrapper">
+            <a href="#about-section" title="About section" class="scroll-down">
+              <img class="logo" src="images/logo-white.png" alt="scroll down">
+              <span class="scroll-down-text"> Learn More
+                <svg class="chevron" viewBox="0 0 57.942 105.958" enable-background="new 0 0 11.893 6.503">
+                  <line fill="none" stroke="#fff" stroke-width="7" stroke-miterlimit="10" x1="2.475" y1="2.475" x2="55.467" y2="55.466"></line>
+                  <line fill="none" stroke="#fff" stroke-width="7" stroke-miterlimit="10" x1="55.467" y1="50.492" x2="2.475" y2="103.484"></line>
+                </svg>
+              </span>
             </a>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <section id="about-section" class="section">
+      <div class="bg skrollable skrollable-between" data-anchor-target="#services-section" data-bottom-top="transform: translate3d(0px, -150px, 0px);" data-top-bottom="transform: translate3d(0px, 150px, 0px);"
+        style="transform: translate3d(0px, -11.2431px, 0px);"></div>
+      <div class="section-wrapper">
+        <div class="fade-in">
 
-
-
-
-
-  <!-- Projects -->
-  <section id="projects">
-    <div class="container-fluid" style="padding:0">
-      <h2 class="">Projects</h2>
-      <div id="carousel-2" class="carousel slide" data-ride="false" data-interval="5000">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container-fluid proj">
-              <div class="row no-gutters">
-                <h3 class="col-lg-10 col-md-9 col-sm-6 proj-title" style="text-align:left">File Management System</h3>
-                <a class="col-lg-1 col-md-1 col-sm-1 view-tag" href="https://github.com/ipratikk/File_Management_System/tree/master" target="_blank"><i class="fas fa-eye"></i></a>
-                <a class="col-lg-1 col-md-1 col-sm-1 view-tag" href="https://github.com/ipratikk/File_Management_System/archive/master.zip" target="_blank"><i class="fas fa-download"></i></a>
-              </div>
-              <hr>
-              <p>The system​ ​follow​s ​the​ ​working​ ​principle​ ​of​ ​‘​ls​’​ ​command​ ​in​ ​Linux​ ​Operating​ ​system.
-                It​ ​can ​show​ ​the​ ​files,​ ​folders​ ​under​ ​the​ ​current​ ​directory.​ ​
-                The​ ​user​ ​can add​ ​files,​ ​folders​ ​under​ ​specific​ ​folder.
-                If​ ​the​ ​folder​ ​under​ ​which​ ​the​ ​user​ ​want​s ​to​ ​add​ ​the​ ​files​ ​do​es ​not​ ​exist,​ ​it​ ​is ​created​ ​first​ ​and then​ ​the​ ​files/folders​ ​are ​added.
-                Tree​ ​data​ ​structure​ ​is​ ​used​ ​to​ ​implement​ ​the​ ​system.
-                These​ ​files​ ​or​ ​folders​ ​mentioned​ ​above​ ​are not ​created​ ​physically,​ ​only the names are stored.</p>
-              <h4>Commands</h4>
-              <table class="table table-striped table-bordered table-responsive-lg" style="text-align:center">
-                <thead>
-                  <th scope="col">Command</th>
-                  <th scope="col">Details</th>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>mkdir</td>
-                    <td>Creates​ ​a​ ​new​ ​directory​ ​under​ ​the​ ​current​ ​directory,​ ​prompts​ ​user​ ​if​ ​the​ ​directoryalready​ ​exists</td>
-                  </tr>
-                  <tr>
-                    <td>file</td>
-                    <td>Creates​ ​a​ ​new​ ​file​ ​under​ ​the​ ​current​ ​directory,​ ​prompts​ ​user​ ​if​ ​the​ ​file​ ​alreadyexists</td>
-                  </tr>
-                  <tr>
-                    <td>ls</td>
-                    <td>Displays​ ​the​ ​contents​ ​of​ ​the​ ​current​ ​directory</td>
-                  </tr>
-                  <tr>
-                    <td>tree</td>
-                    <td>Displays​ ​all​ ​the​ ​files​ ​and​ ​folders</td>
-                  </tr>
-                  <tr>
-                    <td>sd</td>
-                    <td>Shows​ ​the​ ​name​ ​of​ ​the​ ​current​ ​directory</td>
-                  </tr>
-                  <tr>
-                    <td>cd</td>
-                    <td>Changes​ ​the​ ​current​ ​directory,​ ​cd​ ​root​ ​may​ ​be​ ​used​ ​to​ ​go​ ​to​ ​the​ ​root​ ​directory</td>
-                  </tr>
-                </tbody>
-              </table>
+          <h1 class="heading" data-aos="fade-up">Hey, I'm Pratik.</h1>
+          <h3 class="section-subheading" data-aos="fade-up">
+            I'm a passionate coder with good team management and leadership skills and an ability to adapt to situations fairly easily.
+          </h3>
+          <span class="divider" data-aos="fade"></span>
+          <div class="about-wrapper">
+            <img src="images/pratik.png" alt="" class="headshot" data-aos="fade-left">
+            <div class="about-text-wrapper">
+              <p class="about-text" data-aos="fade-right"><strong>I'm a fourth year student at University Of Engineering & Management</strong> in Kolkata, West Bengal, India, studying Computer Science Engineering. I have experience in Competitive Programming and Software
+                development under the internships overtaken. I strive to create software that not only does the job but also optimise it for efficient usage.</p>
+              <p class="about-text" data-aos="fade-right">I love learning new and better ways to create softwares with clean, efficient and scalable codes. I consider work an ongoing education, and I'm always looking for opportunities to work with those who are willing to
+                share their knowledge as much as i want to learn.</p>
+              <p class="about-text" data-aos="fade-right"><strong>When I'm not in front of a computer screen,</strong> I'm probably playing cricket / football, listening to songs, playing chess or having a chat with friends and family.</p>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="container-fluid proj">
-              <div class="row no-gutters">
-                <h3 class="col-lg-10 col-md-9 col-sm-6 proj-title" style="text-align:left">Material Requirement Processing</h3>
-                <a class="col-lg-1 col-md-1 col-sm-1 view-tag" href="https://github.com/ipratikk/Material_Requirement_Processing" target="_blank"><i class="fas fa-eye"></i></a>
-                <a class="col-lg-1 col-md-1 col-sm-1 view-tag" href="https://github.com/ipratikk/Material_Requirement_Processing/archive/master.zip" target="_blank"><i class="fas fa-download"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services-section" class="section gap">
+      <div class="bg skrollable skrollable-between" data-anchor-target="#services-section" data-bottom-top="transform: translate3d(0px, -150px, 0px);" data-top-bottom="transform: translate3d(0px, 150px, 0px);"
+        style="transform: translate3d(0px, -11.2431px, 0px);"></div>
+      <div class="overlay-wrapper">
+        <div class="fade-in">
+          <h1 class="section-heading" >What I Do</h1> <span class="divider"></span>
+          <div class="services-wrapper">
+            <div class="service-row">
+              <div class="service-column" data-aos="fade-up-left">
+                <div class="sprite coding"></div>
+                <h2 class="service-heading">Competitive Coding</h2>
+                <p class="service-text">Using the concepts of Datastructures and Algorithms to optimise the runtime and develop efficient codes for real-world like problems.</p>
               </div>
-              <hr>
-              <p>
-                <ul>
-                  <li>The system uses gambas3 to provide an user interface</li>
-                  <li>It can calculate the complete inventory and the price</li>
-                  <li>New items can be added to inventory alongwith quantity and price.</li>
-                  <li>It supports validation of invalid entries</li>
-                  <li>It can display the inventory</li>
-                  <li>It can display complete or individual items</li>
-                  <li>It has a receipt generator</li>
+              <div class="service-column" data-aos="fade-up-right">
+                <div class="sprite webdev"></div>
+                <h2 class="service-heading">Web Development</h2>
+                <p class="service-text">Using HTML, CSS, and JavaScript to develop good-looking websites. In road to learning backend development incl. Node.js, React.js and other backend frameworks.</p>
+              </div>
+
+            </div>
+            <div class="service-row">
+              <div class="service-column" data-aos="fade-down-left">
+                <div class="sprite python"></div>
+                <h2 class="service-heading">Software Development</h2>
+                <p class="service-text">I've built softwares and BOTs for one of the Big 4 Companies under my Internship. The BOTs are currently active and have reduced the time taken to process files by over 95% saving money and resources.</p>
+              </div>
+              <div class="service-column" data-aos="fade-down-right">
+                <div class="sprite editing"></div>
+                <h2 class="service-heading">Video and Photo Editing</h2>
+                <p class="service-text">I edit photos and videos for my sister's channel on <a href="https://www.youtube.com/c/thefitnessgeek" target = "_blank" >YouTube</a> and <a href="https://www.instagram.com/payalagarwalmukherjee" target="_blank" >Instagram</a> using Adobe Premiere Pro & Photoshop.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills-section" class="section">
+      <div class="section-wrapper">
+        <div class="fade-in">
+          <h1 class="section-heading">Skills</h1> <span class="divider"></span>
+          <div class="skills-flex-wrapper">
+            <div class="flex-item dev-wrapper">
+              <h2 class="skills-heading"> <span class="sprite dev"></span> <span>Development</span> </h2>
+              <ul>
+                <li class="dev-item">Python</li>
+                <li class="dev-item">Java</li>
+                <li class="dev-item">C++14</li>
+                <li class="dev-item">OOP</li>
+                <li class="dev-item">DS & Algo</li>
+                <li class="dev-item">JavaScript</li>
+                <li class="dev-item">HTML5</li>
+                <li class="dev-item">CSS3</li>
+                <li class="dev-item">SQL</li>
+              </ul>
+            </div>
+            <div class="flex-item design-wrapper">
+              <h2 class="skills-heading"> <span class="sprite design"></span> <span>Multimedia</span> </h2>
+              <ul>
+                <li class="design-item"><img class="item-img" src="images/icons/adobe-photoshop.png" alt="adobe-photoshop" title="Adobe Photoshop"></li>
+                <li class="design-item"><img class="item-img" src="images/icons/adobe-premiere.png" alt="adobe-premiere" title="Adobe Premiere Pro"></li>
+                <li class="design-item"><img class="item-img" src="images/icons/filmora.png" alt="filmora" title="Filmora"></li>
+                <li class="design-item"><img class="item-img" src="images/icons/final-cut.png" alt="final-cut" title="Final Cut"></li>
+              </ul>
+            </div>
+            <div class="flex-item check-wrapper">
+              <div class="tools-wrapper">
+                <h2 class="skills-heading"> <span class="sprite tools"></span> <span>Tools</span> </h2>
+                <ul class="list">
+                  <li class="list-item"><img class="item-svg" src="images/icons/checkmark.svg" alt="checkmark">Git + Github</li>
+                  <li class="list-item"><img class="item-svg" src="images/icons/checkmark.svg" alt="checkmark">Command Line</li>
+                  <li class="list-item"><img class="item-svg" src="images/icons/checkmark.svg" alt="checkmark">MySQL</li>
+                  <li class="list-item"><img class="item-svg" src="images/icons/checkmark.svg" alt="checkmark">MS SQL</li>
+                  <li class="list-item"><img class="item-svg" src="images/icons/checkmark.svg" alt="checkmark">Linux</li>
                 </ul>
-              </p>
+              </div>
+              <div class="knowledge-wrapper">
+                <h2 class="skills-heading"> <span class="sprite knowledge"></span> <span>Knowledge</span> </h2>
+                <ul class="list">
+                  <li class="list-item"><img class="item-svg" src="images/icons/checkmark.svg" alt="checkmark">DBMS</li>
+                  <li class="list-item"><img class="item-svg" src="images/icons/checkmark.svg" alt="checkmark">Operating Systems</li>
+                  <li class="list-item"><img class="item-svg" src="images/icons/checkmark.svg" alt="checkmark">Networking</li>
+                  <li class="list-item"><img class="item-svg" src="images/icons/checkmark.svg" alt="checkmark">Web Development</li>
+                  <li class="list-item"><img class="item-svg" src="images/icons/checkmark.svg" alt="checkmark">Competitive Programming</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev">
-          <i class="fas fa-chevron-left fa-2x icon"></i>
-        </a>
-        <a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next">
-          <i class="fas fa-chevron-right fa-2x icon"></i>
-        </a>
       </div>
-    </div>
-  </section>
+    </section>
 
-
-
-
-  <!-- Profiles -->
-  <section id="profile">
-    <h2>Coding Profiles</h2>
-    <div class="container-fluid">
-      <div class="row">
-        <a class="col-lg col-sm-auto" href="https://codechef.com/users/ipratikk" target="_blank"><img src="images/codechef.png" class="image-fluid mx-auto d-block cod-img" alt=""></a>
-        <a class="col-lg col-sm-auto" href="https://hackerearth.com/@ipratikk" target="_blank"><img src="images/hackerearth.png" class="image-fluid mx-auto d-block cod-img" alt=""></a>
-        <a class="col-lg col-sm-auto" href="https://www.hackerrank.com/ipratikk?hr_r=1" target="_blank"><img src="images/hackerrank.png" class="image-fluid mx-auto d-block cod-img" alt=""></a>
-        <a class="col-lg col-sm-auto" href="https://leetcode.com/ipratikk/" target="_blank"><img src="images/leetcode.png" class="image-fluid mx-auto d-block cod-img" alt=""></a>
-        <a class="col-lg col-sm-auto" href="https://www.spoj.com/users/ipratikk/" target="_blank"><img src="images/spoj.png" class="image-fluid mx-auto d-block cod-img" alt=""></a>
-        <a class="col-lg col-sm-auto" href="http://codeforces.com/profile/ipratikk" target="_blank"><img src="images/codeforces.png" class="image-fluid mx-auto d-block cod-img" alt=""></a>
+    <section id="experience-section" class="section gap">
+      <div class="bg skrollable skrollable-between" data-anchor-target="#experience-section" data-bottom-top="transform: translate3d(0px, -150px, 0px);" data-top-bottom="transform: translate3d(0px, 150px, 0px);"
+        style="transform: translate3d(0px, -102.856px, 0px);"></div>
+      <div class="overlay-wrapper">
+        <div class="fade-in">
+          <div class="center">
+            <h1 class="section-heading">Experience</h1> <span class="divider center"></span>
+            <p class="experience-description">Looking for a job where i can contribute to the company and also learn a lot in the process.</p>
+          </div>
+          <div class="experience-wrapper">
+            <i class="up-arrow"></i>
+            <div id="timeline">
+              <div class="timeline-block">
+                <div class="timeline-content" data-aos = "fadeInTop">
+                  <h2 class="position">Summer Intern</h2>
+                  <h3 class="company"><a href="https://www.ey.com/en_in/" target="_blank">Ernst &amp; Young LLP</a></h3>
+                  <p class="job-desc">Building Python BOTs to automate the process of generating annexures for Transfer Pricing. Also, developed multiple offline GUI applications for multiple clients.</p>
+                </div>
+                <div class="timeline-img">
+                  <div class="sprite industry"></div>
+                </div> <span class="date">August - December 2020</span>
+              </div>
+              <div class="timeline-block">
+                <div class="timeline-content">
+                  <h2 class="position">Coding Lead</h2>
+                  <h3 class="company"><a href="https://dsc.community.dev/university-of-engineering-and-management-kolkata/" target="_blank">DSC, UEMK</a></h3>
+                  <p class="job-desc">I was Elected as the Coding lead for the Developer Student Club of UEMK</p>
+                </div>
+                <div class="timeline-img">
+                  <div class="sprite academic"></div>
+                </div> <span class="date">October 2020 - Present</span>
+              </div>
+              <div class="timeline-block">
+                <div class="timeline-content">
+                  <h2 class="position">President</h2>
+                  <h3 class="company"><a href="https://www.codechef.com/campus_chapter/UEMK" target="_blank">Codechef Campus Chapter, UEMK</a></h3>
+                  <p class="job-desc">Elected as the President of the Codechef chapter for the contribution to the codechef community and promoting Competitive coding amongst the juniors.</p>
+                </div>
+                <div class="timeline-img">
+                  <div class="sprite academic"></div>
+                </div> <span class="date">May 2018 - Present</span>
+              </div>
+              <div class="timeline-block">
+                <div class="timeline-content">
+                  <h2 class="position">Intern</h2>
+                  <h3 class="company"><a href="https://www.linkedin.com/company/cuboid.io/about/" target="_blank">Kitcode.io</a></h3>
+                  <p class="job-desc">Worked on the Neural Network model to train the AI for autocomplete suggestions in IDE</p>
+                </div>
+                <div class="timeline-img">
+                  <div class="sprite industry"></div>
+                </div> <span class="date">Nov 2017 - Jan 2018 </span>
+              </div>
+              <div class="timeline-block">
+                <div class="timeline-content">
+                  <h2 class="position">Bachelor of Technology</h2>
+                  <h3 class="company"><a href="http://www.uem.edu.in/" target="_blank">University Of Engineering &amp; Management, Kolkata</a></h3>
+                  <p class="job-desc">Major - <strong>Computer Science Engineering</strong></p>
+                </div>
+                <div class="timeline-img">
+                  <div class="sprite university"></div>
+                </div> <span class="date">July 2017 - Present</span>
+              </div>
+              <div class="timeline-block">
+                <div class="timeline-content">
+                  <h2 class="position">Class XII</h2>
+                  <h3 class="company"><a href="http://carmelschoolsarangabad.org/" target="_blank">Carmel School, Budge Budge</a></h3>
+                  <p class="job-desc">Board - ISC <br>Score - 81.33%</p>
+                </div>
+                <div class="timeline-img">
+                  <div class="sprite university"></div>
+                </div> <span class="date">2016</span>
+              </div>
+              <div class="timeline-block">
+                <div class="timeline-content">
+                  <h2 class="position">Class X</h2>
+                  <h3 class="company"><a href="http://carmelschoolsarangabad.org/" target="_blank">Carmel School, Budge Budge</a></h3>
+                  <p class="job-desc">Board - ICSE <br>Score - 90.5%</p>
+                </div>
+                <div class="timeline-img">
+                  <div class="sprite university"></div>
+                </div> <span class="date">2014</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-  </section>
+    <a class="block-btn" href="Pratik_Goel_Resume.pdf" target="_blank"> <span class="text">View my full résumé</span> <img class="icon" src="images/icons/download.png" alt="download resume"> </a>
 
+    <section id="portfolio-section" class="section">
+      <div class="section-wrapper">
+        <div class="fade-in">
+          <h1 class="section-heading">Some of My Work</h1> <span class="divider"></span>
+          <div class="portfolio-item-wrapper">
+            <div class="portfolio-row">
+              <div class="screenshots">
+                <img class="img-lg" src="https://github.com/ipratikk/-Javax.Swing-Hostel-Information-System/blob/master/Screenshots/addToDB.JPG?raw=true" alt="desktop-screenshot">
+                <img class="img-md" src="https://github.com/ipratikk/-Javax.Swing-Hostel-Information-System/blob/master/Screenshots/StudentRecord_ALL.JPG?raw=true" alt="tablet-screenshot">
+                <img class="img-sm" src="https://github.com/ipratikk/-Javax.Swing-Hostel-Information-System/blob/master/Screenshots/HostelSearch.JPG?raw=true" alt="mobile-screenshot">
+              </div>
+              <div class="description-title-container">
+                <h2 class="description-title">Hostel Information System</h2>
+                <div class="description-buttons"> <a href="https://github.com/ipratikk/-Javax.Swing-Hostel-Information-System" target="_blank">Demo</a> <a href="https://github.com/ipratikk/-Javax.Swing-Hostel-Information-System"
+                    target="_blank">Code</a> </div>
+              </div>
+              <p class="portfolio-description">This project will provide a GUI based application whose main goal is to keep track of students/employee/workers and the hostel details of an Organisation.
 
-  <!-- Footer/ Contact me -->
+                The product is viable for every organization irrespective of its size or structure. This application helps in cutting down the efforts to maintain ledgers or books and therefore reducing the cost of manpower and stationery.</p>
+              <div class="used">
+                <ul class="used-items">
+                  <li class="used-item">Java</li>
+                  <li class="used-item">Swing</li>
+                  <li class="used-item">MySQL</li>
+                </ul>
+              </div>
+            </div> <span class="divider"></span>
 
-  <footer id="footer">
-    <div class="row container-fluid social" style="padding-bottom:5%">
-      <a class="footer-link col" href="https://www.linkedin.com/in/ipratikk" target="_blank"><img src="images/linkedin.svg" class="image-fluid mx-auto d-block soc-img" alt=""></a>
-      <a class="footer-link col" href="https://twitter.com/ipratikk" target="_blank"><img src="images/twitter.svg" class="image-fluid mx-auto d-block soc-img" alt=""></a>
-      <a class="footer-link col" href="https://facebook.com/ipratikk" target="_blank"><img src="images/facebook.svg" class="image-fluid mx-auto d-block soc-img" alt=""></a>
-      <a class="footer-link col" href="https://instagram.com/ipratikk" target="_blank"><img src="images/instagram.svg" class="image-fluid mx-auto d-block soc-img" alt=""></a>
-      <a class="footer-link col" href="mailto:ipratikgoel@gmail.com" target="_top" target="_blank"><img src="images/gmail.svg" class="image-fluid mx-auto d-block soc-img" alt=""></a>
-      <a class="footer-link col" href="https://github.com/ipratikk" target="_blank"> <img src="images/github.svg" class="image-fluid mx-auto d-block soc-img" alt=""></a>
-    </div>
-    <p class="copyright">© 2019 Pratik Goel. All Rights Reserved</p>
-  </footer>
+            <div class="portfolio-row">
+              <div class="screenshots ">
+                <img class="img-lg" src="images/portfolio/old_website/lg.png" alt="desktop-screenshot">
+                <img class="img-md" src="images/portfolio/old_website/md.png" alt="tablet-screenshot">
+                <img class="img-sm" src="images/portfolio/old_website/sm.png" alt="mobile-screenshot">
+              </div>
+              <div class="description-title-container">
+                <h2 class="description-title">Resume Website (Old)</h2>
+                <div class="description-buttons"> <a href="https://ipratikk.github.io/CV-Old" target="_blank">Demo</a> <a href="https://github.com/ipratikk/CV-Old/" target="_blank">Code</a> </div>
+              </div>
+              <p class="portfolio-description">
+                This is just an online version of my resume I made for fun. I was interested in learning Web Development, so I found this
+                <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/17967152?start=0#overview">course</a>
+                on Udemy and it kind of spun into this weekend project. I probably didn't need to make this at all, but hey, at least I
+                learned a few things!</p>
+              <div class="used">
+                <ul class="used-items">
+                  <li class="used-item">HTML</li>
+                  <li class="used-item">JQuery</li>
+                  <li class="used-item">CSS</li>
+                  <li class="used-item">Bootstrap 4</li>
+                </ul>
+              </div>
+            </div>
 
+            <div class="portfolio-row">
+              <div class="screenshots ">
+                <img class="img-lg" src="images/portfolio/final_year/md.png" alt="desktop-screenshot">
+                <img class="img-md" src="images/portfolio/final_year/lg.png" alt="tablet-screenshot">
+                <img class="img-sm" src="images/portfolio/final_year/sm.png" alt="mobile-screenshot">
+              </div>
+              <div class="description-title-container">
+                <h2 class="description-title">Project X</h2>
+                <div class="description-buttons"> <a href="error404.html" target="_blank">Demo</a> <a href="error404.html" target="_blank">Code</a> </div>
+              </div>
+              <p class="portfolio-description">
+                This is a web platform where students interested in research can collaborate with mentors and fellow researchers from around the globe. It has features like course,mentor,domain recommendation using the data collected during signup.
+              </p>
+              <div class="used">
+                <ul class="used-items">
+                  <li class="used-item">HTML</li>
+                  <li class="used-item">JQuery</li>
+                  <li class="used-item">CSS</li>
+                  <li class="used-item">Bootstrap 4</li>
+                  <li class="used-item">Django</li>
+                  <li class="used-item">Python</li>
+                  <li class="used-item">Machine Learning</li>
+                  <li class="used-item">PostgreSQL</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a class="block-btn" href="https://github.com/ipratikk" target="_blank"> <span class="text">See more projects</span> <img class="icon" src="images/icons/github.svg" alt="github"> </a>
+
+    <section id="coding-section" class="section">
+      <div class="bg skrollable skrollable-between" data-anchor-target="#coding-section" data-bottom-top="transform: translate3d(0px, -150px, 0px);" data-top-bottom="transform: translate3d(0px, 150px, 0px);"
+        style="transform: translate3d(0px, -11.2431px, 0px);"></div>
+      <div class="overlay-wrapper">
+        <div class="fade-in">
+          <div class="center">
+            <h1 class="section-heading">Coding Profiles</h1>
+            <span class="divider center"></span>
+            <p class="experience-description">These are some of the competitive coding websites where i've been practising and learning for the entireity of my coding journey !</p>
+          </div>
+          <div class="coding-wrapper">
+            <div class="flex-item code-wrapper">
+              <ul>
+                <li class="code-item">
+                  <a class="code-link" href="https://www.codechef.com/users/ipratikk/" target="_blank"><img src="images/codechef.png" alt="" class="item-img"></a>
+                </li>
+                <li class="code-item">
+                  <a class="code-link" href="https://www.hackerrank.com/ipratikk/" target="_blank"><img src="images/hackerrank.png" alt="" class="item-img"></a>
+                </li>
+                <li class="code-item">
+                  <a class="code-link" href="https://www.hackerearth.com/users/ipratikk/" target="_blank"><img src="images/hackerearth.png" alt="" class="item-img"></a>
+                </li>
+                <!-- <li class="code-item">
+                  <a class="code-link" href="https://www.codeforces.com/profile/ipratikk/" target="_blank"><img src="images/codeforces.png" alt="" class="item-img"></a>
+                </li> -->
+                <li class="code-item">
+                  <a class="code-link" href="https://www.leetcode.com/ipratikk/" target="_blank"><img src="images/leetcode.png" alt="" class="item-img"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-section" class="section gap">
+      <div class="bg skrollable skrollable-between" data-anchor-target="#contact-section" data-bottom-top="transform: translate3d(0px, -150px, 0px);" data-top-bottom="transform: translate3d(0px, 150px, 0px);"
+        style="transform: translate3d(0px, 11.6879px, 0px);"></div>
+      <div class="overlay-wrapper">
+        <div class="fade-in">
+          <div class="center">
+            <h1 class="section-heading">Get In Touch</h1> <span class="divider center"></span>
+            <p class="contact-description" data-aos="fade" data-aos-delay = "500">Have a sweet project in mind or just want to say hi? Feel free to send me a message!</p>
+          </div>
+          <div class="contact-wrapper">
+            <form data-aos="fade-right" id="contactform" class="form-wrapper" method="POST" autocomplete="off" action="https://formsubmit.co/ipratikgoel@gmail.com"> <input type="text" name="_gotcha" style="display:none">
+              <div class="input-wrapper"> <label for="name" class="input-label">Name</label> <input type="text" name="name" class="contact-input" id="name" required="" placeholder="John Doe"> </div>
+              <div class="input-wrapper"> <label for="email" class="input-label">Email</label> <input type="email" name="email" class="contact-input" id="email" required="" placeholder="xyz@email.com"> </div>
+              <div class="input-wrapper"> <label for="subject" class="input-label">Subject</label> <input type="text" name="_subject" class="contact-input" id="subject" required="" placeholder="Collaboration on Project / Enquiry"> </div>
+              <div class="input-wrapper"> <label for="message" class="input-label" id="message-label">Message</label> <textarea name="message" class="contact-input autoExpand" id="message" required=""
+                  placeholder="Please, Leave a short Message."></textarea> </div>
+              <button type="submit" name="submit" class="message-btn"> <span>Send Message</span> </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer" class="section">
+      <div class="section-wrapper">
+        <ul class="soc">
+          <li class="soc-item"><a href="mailto:ipratikgoel@gmail.com" target="_blank" class="icon email" title="email"><img src="images/icons/email.svg" alt="email"></a></li>
+          <li class="soc-item"><a href="https://twitter.com/ipratikk" target="_blank" class="icon twitter" title="twitter"><img src="images/icons/twitter.svg" alt="twitter"></a></li>
+          <li class="soc-item"><a href="https://instagram.com/ipratikk" target="_blank" class="icon instagram" title="instagram"><img src="images/icons/instagram.svg" alt="instagram"></a></li>
+          <li class="soc-item"><a href="https://facebook.com/ipratikk" target="_blank" class="icon facebook" title="facebook"><img class ="facebook" src="images/icons/facebook.svg" alt="facebook"></a></li>
+          <li class="soc-item"><a href="https://github.com/ipratikk" target="_blank" class="icon github" title="github"><img src="images/icons/github.svg" alt="github"></a></li>
+          <li class="soc-item"><a href="https://www.linkedin.com/in/ipratikk" target="_blank" class="icon linkedin" title="linkedin"><img src="images/icons/linkedin.svg" alt="linkedin"></a></li>
+        </ul>
+        <div class="copyright-wrapper center">
+          <p>©&nbsp;&nbsp;PRATIK GOEL, 2021</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/main.js">
+
+  </script>
 </body>
 
 </html>
