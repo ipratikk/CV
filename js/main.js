@@ -1,29 +1,29 @@
 "use strict";
 
-function delay(atr,atr2){
+function delay(atr,atr2,delay_val = 100,incr_val = 100){
   $(atr).each(function(){
     console.log(atr,atr2)
-    var delay = 100;
+    var delay = delay_val;
     $(atr2).each(function(){
         console.log(delay,this)
         $(this).attr("data-aos-delay",delay);
-        delay += 100;
+        delay += incr_val;
     })
   })
 }
 
 $(".dev-item").attr("data-aos","zoom-in")
-delay("ul",".dev-item")
+delay("ul",".dev-item",50,20)
 $(".design-item").attr("data-aos","zoom-in")
 delay("ul",".design-item")
 $(".used-item").attr("data-aos","zoom-in")
 delay("ul",".used-item")
 $(".code-item").attr("data-aos","zoom-in")
-delay("ul",".code-item")
+delay("ul",".code-item",50,20)
 $(".list-item").attr("data-aos","zoom-in")
 delay("ul",".list-item")
 $(".soc-item").attr("data-aos","zoom-in")
-delay("ul",".soc-item")
+delay("ul",".soc-item",50,20)
 
 
 $(".section-heading").attr("data-aos","fade-up")

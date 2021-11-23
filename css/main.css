@@ -363,6 +363,7 @@ ul {
 
 #dot-nav a {
   display: inline-block;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden
 }
 
@@ -836,7 +837,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   color: #f2f2f2;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: Gotham, Helvetica, Arial, sans-serif;
   opacity: 1;
   margin: 0
@@ -946,7 +947,7 @@ ul {
 }
 
 #about-section .about-wrapper .about-text-wrapper .about-text {
-  margin-bottom: 10px;
+  margin-bottom: 3%;
   font-size: 1.15em
 }
 
@@ -955,7 +956,7 @@ ul {
   width: 35%;
   height: auto;
   border-radius: 50%;
-  margin-top: -100px;
+  margin-top: -160px;
   float: right;
   max-width: 450px
 }
@@ -1250,7 +1251,7 @@ ul {
 
 #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
   width: 60%;
-  max-width: 400px;
+  max-width: 45%;
   min-height: 450px
 }
 
@@ -1269,6 +1270,7 @@ ul {
 @media only screen and (max-width:768px) {
   #skills-section .skills-flex-wrapper .flex-item:nth-child(1) {
     width: 100%;
+    max-width: 100%;
     min-height: 50px
   }
 }
@@ -1725,7 +1727,7 @@ ul {
   margin: 5px 0 10px;
   font-size: 18px;
   display: inline-block;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-family: Gotham, Helvetica, Arial, sans-serif
 }
 
@@ -2169,7 +2171,7 @@ ul {
 
 #coding-section .coding-wrapper .code-item{
   display: inline-block;
-  margin: 72px;
+  margin: 60px;
 }
 
 #coding-section .coding-wrapper .code-item .item-img{
