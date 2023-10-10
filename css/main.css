@@ -1753,6 +1753,15 @@ ul {
   line-height: 1.5
 }
 
+.job-desc-list {
+  list-style-type: circle;
+  padding: 5%;
+}
+
+.job-desc-list li {
+  padding: 0 0 2% 2%;
+}
+
 @media only screen and (max-width:480px) {
   #experience-section .experience-wrapper #timeline .timeline-block .timeline-content .job-desc {
     font-size: 1em;
